@@ -1,0 +1,6 @@
+import redis
+r = redis.Redis()
+
+class Redis(object):
+    def __init__(self, host='localhost', port=6379,
+        db=0, password=None, socket_timeout=None)
